@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='safire',
-    version='0.1dev',
+    version='0.1',
     packages=['safire',],
     package_data={'safire': ['static/js/*',
                                 'templates/*']
