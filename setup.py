@@ -1,10 +1,13 @@
 from distutils.core import setup
 
 setup(
-    name='Safire',
+    name='safire',
     version='0.1dev',
     packages=['safire',],
+    package_data={'safire': ['static/js/*',
+                                'templates/*']
+    },
     install_requires=[
-        "flask >= 0.8"
+        "Flask >= 0.9"
     ],
 )

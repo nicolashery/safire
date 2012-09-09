@@ -2,7 +2,7 @@
 import os
 from flask import Flask
 
-from safire.blueprint import safire_blueprint
+from safire import safire_blueprint
 
 application = app = Flask(__name__)
 
